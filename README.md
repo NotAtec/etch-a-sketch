@@ -8,7 +8,7 @@ A browser based sketchpad, using the mouse to draw!
 - Rainbow Mode (Draw in random colors)
     - Color is reselected for each cell
 - Eraser
-- Reset
+- Reset button
 - Grid size slider
 
 ## Built With
