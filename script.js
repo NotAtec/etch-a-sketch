@@ -24,6 +24,9 @@ let mode = "black";
 function resetHandler() {
     genGrid();
     addCellListener();
+    if (mode == "eraser") {
+        mode = "black";
+    }
 }
 
 function rainbowMode() {
