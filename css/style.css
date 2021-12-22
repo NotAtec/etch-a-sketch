@@ -53,10 +53,6 @@ h2 {
     background-color: white;
 }
 
-div {
-    border: 1px solid black;
-}
-
 .row {
     display: flex;
     flex-direction: column;
