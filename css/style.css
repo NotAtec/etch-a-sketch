@@ -13,6 +13,7 @@ body {
     background-color: #9c27b0;
     color: white;
 }
+
 #footer {
     padding: 8px 0;
     background-color: #9e9e9e;
@@ -22,12 +23,14 @@ button {
     padding: 8px 0;
     margin: 28px 0 12px 0;
     width: 132px;
+    border-radius: 4px;
 }
 
 h2 {
     margin: 8px;
     padding: 0;
 }
+
 #settings {
     width: 16vw;
     max-height: 500%;
@@ -44,4 +47,22 @@ h2 {
     position: relative;
     left: -9vw;
     border: 3px solid black;
+}
+
+.selected {
+    background-color: white;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cell {
+    flex: 1;
 }

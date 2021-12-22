@@ -20,11 +20,11 @@
             <button id="rainbow">Rainbow Mode</button>
             <button id="black">Regular Mode</button>
             <button id="eraser">Eraser</button>
-            <button id="reset">Empty Grid</button>
-            <input type="range" min="1" max="64" value="16" id="gridsize" style="margin-top: 16px;">
-            <p> x </p>
+            <button id="reset">Reset Grid</button>
+            <input type="range" min="1" max="64" value="16" id="gridsize" onchange="updateSliderText()" style="margin-top: 16px;">
+            <p id="sizetext"> x </p>
         </div>
-        <div class="container centered" id="grid"></div>
+        <div class="container" id="grid"></div>
     </div>
 
     <div class="container centered" id="footer"><p>Copyright © 2021 Jeroen B</p></div>
