@@ -19,26 +19,37 @@ const eraserButton = document.getElementById("eraser");
 eraserButton.addEventListener("click", eraserMode);
 
 let mode = "black";
+blackButton.style.boxShadow = "inset 0px 5px 5px #c1c1c1";
 
 // Functions
 function resetHandler() {
     genGrid();
     addCellListener();
     if (mode == "eraser") {
-        mode = "black";
+        blackMode();
     }
 }
 
 function rainbowMode() {
     mode = "rainbow";
+    rainbowButton.style.boxShadow = "inset 0px 5px 5px #c1c1c1";
+    blackButton.style.boxShadow = "";
+    eraserButton.style.boxShadow = "";
+
 }
 
 function eraserMode() {
     mode = "eraser";
+    rainbowButton.style.boxShadow = "";
+    blackButton.style.boxShadow = "";
+    eraserButton.style.boxShadow = "inset 0px 5px 5px #c1c1c1";  
 }
 
 function blackMode() {
     mode = "black";
+    rainbowButton.style.boxShadow = "";
+    blackButton.style.boxShadow = "inset 0px 5px 5px #c1c1c1";
+    eraserButton.style.boxShadow = "";  
 }
 
 function genGrid() {
