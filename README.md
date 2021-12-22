@@ -1,7 +1,7 @@
 # Etch A Sketch
 A browser based sketchpad, using the mouse to draw!
 
-[Preview to Be Added](#) <--
+[Live Previe](https://notatec.github.io/etch-a-sketch/) <--
 
 ## Features
 - Regular Mode (Draw in black)
